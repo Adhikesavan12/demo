@@ -17,9 +17,7 @@ public class errorhandling {
         catch(ArrayIndexOutOfBoundsException a){
                 System.out.println(a);
                 System.out.println("array iondex    ");
-
-        }
-        
+                }
         try{
         int a=1,b=0;
         int c=a/b;
@@ -28,10 +26,7 @@ public class errorhandling {
         catch(ArithmeticException a){
                 System.out.println(a);
                 System.out.println("division by zero is not possible    ");
-
-        }
-        
-    }
-    
+   }
+ }
 }
 
